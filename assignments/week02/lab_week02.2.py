@@ -12,14 +12,14 @@ Show the calculation formula used
 """
 
 direction = input("what is your conversion direction (1: THB to USd,2: USD to THB):")
-amount = float(input"Amount to convert:")
+amount = float(input("Amount to convert:"))
  
-if direction == "1"
+if direction == "1" :
     result = amount / 35.5
     print ("Result =", result)
     print(f"{amount}/35.5 = {result}")
  
-if direction == "3"
+if direction == "3" :
     result = amount * 35.5
     print ("Result =", result)
     print(f"{amount} * 35.5 = {result}")

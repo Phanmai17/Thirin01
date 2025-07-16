@@ -20,7 +20,7 @@ Below 18.5: Underweight
 
 weight = float("Enter weight:")
 height = float("Enter weight:")
-bmi = weight / heigh **2
+bmi = weight / height **2
  
 if bmi < 18.5:
     print("Underweight" )
